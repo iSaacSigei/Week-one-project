@@ -184,13 +184,13 @@ span {
 .product-section .products-options {
     text-align: center;
 }
-.offers-options-cards {
+.card-tag {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.offers-options-cards .display-cards {
+.card-tag .display-cards {
     width: 30%;
     max-width: 30%;
     background-color: #fff;
@@ -202,7 +202,7 @@ span {
     padding: 30px;
     margin: 15px;
 }
-.offers-options-cards .display-cards:hover {
+.card-tag .display-cards:hover {
     box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
         rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
     cursor: pointer;
@@ -252,45 +252,44 @@ span {
     width: inherit;
     height: inherit;
 }
-.recomendation-title > p {
+.page3title > p {
     font-size: 20px;
     margin-top: 10px;
 
     font-weight: 400;
     color: grey;
 }
-.recomendation-title {
-    /* padding: 30px; */
+.page3title {
+    padding: 30px;
     width: 500px;
 }
-.checked-offers {
+.our-deals {
     margin-top: 15px;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.checked-content {
+.our-brand {
     display: flex;
     align-items: center;
     margin-top: 10px;
 }
-.checked-content > label {
+.our-brand > label {
     color: #000;
     font-size: 19px;
     padding-left: 5px;
 }
-.checked-content .material-symbols-rounded {
+.our-brand .material-symbols-rounded {
     font-size: 19px;
-    /* font-weight: 600; */
+    font-weight: 600;
     font-variation-settings: "FILL" 900, "wght" 700, "GRAD" 0, "opsz" 48;
 }
 
-/* featured section */
 .featured-section {
     margin: 100px auto 100px;
     text-align: center;
 }
-.featured-sectin-title {
+.specs-section {
     width: 75%;
     margin: auto;
 }
@@ -302,10 +301,10 @@ span {
     align-items: center;
     width: 100%;
 }
-.featured-cards-huses {
+.top-house {
     height: 250px;
 }
-.featured-cards-huses {
+.top-house {
     /* height: 100px; */
     width: 30%;
     max-width: 30%;
@@ -313,15 +312,15 @@ span {
     border-top-right-radius: 71px;
     border-bottom-left-radius: 71px;
 }
-.featured-cards-huses:hover {
+.top-house:hover {
     box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
         rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
     cursor: pointer;
 }
-.featured-cards-huses .top-image {
+.top-house .top-image {
     width: 100%;
 }
-.featured-cards-huses .top-image > img {
+.top-house .top-image > img {
     height: inherit;
     width: inherit;
 }
@@ -349,14 +348,14 @@ span {
     display: flex;
     justify-content: space-between;
 }
-#view-button2 {
+#view-more-btn {
     border-radius: 10px;
     font-size: small;
     font-weight: 400;
     padding: 5 25px 0;
 }
 
-.review-cards-huses {
+.clients-review-cards {
     text-align: left;
     background-color: #fff;
     width: 30%;
@@ -365,17 +364,17 @@ span {
     margin: 10px;
     border-radius: 10px;
 }
-.review-cards-huses > h3 {
+.clients-review-cards > h3 {
     font-size: 30px;
     font-weight: 400;
     margin-bottom: 5px;
 }
-.review-cards-huses:hover {
+.clients-review-cards:hover {
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
         rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
     cursor: pointer;
 }
-.review-cards-huses .country-name {
+.clients-review-cards .country-name {
     font-weight: 500;
     font-size: large;
     margin-bottom: 10px;
@@ -388,39 +387,46 @@ span {
 .clr{
     color: #2549d3;
 }
-/* Footer Section */
-.footer{
-    padding-right: 100px;
-    padding-left: 100px;
-    color: white;
-    background-color: #0f298b;
+.footer-info {
+	height: 600;
+	background-color: #0f298b;
+	max-width: 1024;
+	padding-top: 100px;
+}
 
+.footer-info {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: auto;
+	padding: 80px;
+	padding-top: 40px;
 }
-.footer ul{
-    list-style-type: none;
+.menu-colums-options {
+	width: 20%;
+	margin: 20px;
 }
-.vallies-estate{
-    width: 230px;
-    display: inline-block;
-    padding: 50px 45px 50px 10px;
+.menu-colums-options > h2 {
+	color: #fff;
 }
-.property{
-    width: 230px;
-    display: inline-block;
-    padding: 50px 15px;
-
+.footer-logo {
+	color: #fff;
+	font-size: 13px;
 }
-.about{
-    width: 230px;
-    display: inline-block;
-    padding: 50px 15px;
-
+.menu-colums-options > ul > li {
+	list-style: none;
+	margin-top: 20px;
 }
-.resources{
-    width: 230px;
-    display: inline-block;
-    padding: 50px 15px;
+.menu-colums-options > ul > li a {
+	text-decoration: none;
+	margin-top: 20px;
+	color: azure;
+	font-size: 15px;
 }
-.vallies-estate h2{
-    font-family: "oleo scrip", cursive;
+.menu-colums-options > p {
+	color: azure;
+	font-size: 15px;
+}
+.h11{
+    font-family: 'oleo script';
 }

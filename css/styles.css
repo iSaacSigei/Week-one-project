@@ -348,7 +348,7 @@ span {
     display: flex;
     justify-content: space-between;
 }
-#view-more-button1 {
+#view-more-getButton {
     border-radius: 10px;
     font-size: small;
     font-weight: 400;

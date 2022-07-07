@@ -353,7 +353,7 @@ span {
     font-size: small;
     font-weight: 400;
     padding: 5 25px 0;
-    flex: right;
+    float: right;
 }
 
 .clients-review-cards {
@@ -403,28 +403,28 @@ span {
 	padding: 80px;
 	padding-top: 40px;
 }
-.menu-colums-options {
+.footer-menu-options {
 	width: 20%;
 	margin: 20px;
 }
-.menu-colums-options > h2 {
+.footer-menu-options > h2 {
 	color: #fff;
 }
 .footer-logo {
 	color: #fff;
-	font-size: 13px;
+	font-size: 15px;
 }
-.menu-colums-options > ul > li {
+.footer-menu-options > ul > li {
 	list-style: none;
 	margin-top: 20px;
 }
-.menu-colums-options > ul > li a {
+.footer-menu-options > ul > li a {
 	text-decoration: none;
 	margin-top: 20px;
 	color: azure;
 	font-size: 15px;
 }
-.menu-colums-options > p {
+.footer-menu-options > p {
 	color: azure;
 	font-size: 15px;
 }

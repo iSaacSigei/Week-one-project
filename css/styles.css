@@ -200,7 +200,7 @@ span {
     display: block;
     height: 300px;
     padding: 30px;
-    margin: 15px;
+    margin: 14px;
 }
 .card-tag .display-cards:hover {
     box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
@@ -223,7 +223,7 @@ span {
     margin-top: 20px;
 }
 .description > p {
-    font-size: 18px;
+    font-size: 19px;
     font-weight: 450;
     margin-top: 20px;
     color: grey;
@@ -412,7 +412,7 @@ span {
 }
 .footer-logo {
 	color: #fff;
-	font-size: 15px;
+	font-size: 13px;
 }
 .footer-menu-options > ul > li {
 	list-style: none;
@@ -422,7 +422,7 @@ span {
 	text-decoration: none;
 	margin-top: 20px;
 	color: azure;
-	font-size: 15px;
+	font-size: 13px;
 }
 .footer-menu-options > p {
 	color: azure;

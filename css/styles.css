@@ -151,7 +151,7 @@ hr {
     display: flex;
     align-items: center;
 }
-#search-btn > span {
+#search-button1 > span {
     margin-right: 10px;
     color: #fff;
 }
@@ -348,7 +348,7 @@ span {
     display: flex;
     justify-content: space-between;
 }
-#view-more-btn {
+#view-more-button1 {
     border-radius: 10px;
     font-size: small;
     font-weight: 400;

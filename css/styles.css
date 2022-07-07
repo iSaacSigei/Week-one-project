@@ -342,17 +342,18 @@ span {
     font-size: 23px;
     font-weight: 500;
 }
-.btn-position-more {
+.getButton-position-more {
     width: 100%;
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
 }
-#view-more-button {
+#view-getButton {
     border-radius: 10px;
     font-size: small;
     font-weight: 400;
     padding: 5 25px 0;
+    flex: right;
 }
 
 .clients-review-cards {

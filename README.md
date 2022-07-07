@@ -31,4 +31,5 @@ furnished to do so, subject to the following conditions:
 ## Authors Info
 
 Name [Sigei Isack]
+LinkedIn [http://www.linkedin.com/in/isack-kiplangat-46a756164]
 
